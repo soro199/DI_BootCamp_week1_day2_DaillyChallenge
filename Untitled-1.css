@@ -1,0 +1,209 @@
+
+*{
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-weight: monterrat;
+}
+
+
+
+
+nav ul{
+
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+
+} 
+
+
+
+
+a.active,a:hover{
+    background: rgb(7, 92, 117);
+    transition: .5s;
+    
+}
+
+section{
+
+    background: url(s.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+ 
+  
+
+
+
+section p{
+
+    color: #f0f8ff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(57, 39, 218);
+    color: white;
+    text-align: center;
+
+    height: 60px;
+    width: 100%;
+  }
+
+
+@media screen and (min-width: 768px) {
+    section h1{
+
+        color: rgb(174, 207, 142);
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+
+@media screen and (max-width: 600px) {
+    section h1{
+
+        color: rgb(174, 207, 142);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    section h1{
+
+        color: rgb(174, 207, 142);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+
+
+@media all and (max-width: 480px) { 
+
+    nav{
+
+        background: #c7da17;
+        height: 80px;
+        width: 100%;
+        
+    }
+
+    nav ul li a{
+
+        color:rgb(24, 22, 22);
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    
+    }
+
+
+  }
+
+
+
+
+  
+  @media all and (min-width: 480px) and (max-width: 768px) { 
+
+    nav{
+
+        background: #17da3e;
+        height: 80px;
+        width: 100%;
+        
+    }
+
+    nav ul li a{
+
+        color:rgb(24, 22, 22);
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    
+    }
+
+
+  }
+
+
+
+  
+  @media all and (min-width: 768px) and (max-width: 1024px) { 
+
+    nav{
+
+        background: #da1717;
+        height: 80px;
+        width: 100%;
+        
+    }
+
+    nav ul li a{
+
+        color:rgb(231, 226, 226);
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    
+    }
+
+
+  }
+
+
+
+  
+  @media all and (min-width: 1024px) and (max-width: 1280px)  { 
+
+    nav{
+
+        background: hsl(72, 14%, 93%);
+        height: 80px;
+        width: 100%;
+        
+    }
+
+    nav ul li a{
+
+        color:rgb(24, 22, 22);
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    
+    }
+
+
+  }
